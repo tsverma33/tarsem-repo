@@ -1,0 +1,15 @@
+spring:
+  mvc.view:
+    prefix: /WEB-INF/
+    suffix: .jsp
+
+cinema:
+  datasources:
+    movies:
+      url: jdbc:mysql://localhost:3306/movies?useSSL=false
+      username: root
+      password: root
+    albums:
+      url: jdbc:mysql://localhost:3306/albums?useSSL=false
+      username: root
+      password: root
